@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+    <title>Cis1401.github.io</title>
+    <meta charset="UTF-8"
 </head>
 <body>
-
-<h1>Cis1401.github.io</h1>
-<p>Hi there! I am <b>Jiezel Olandag</b>. I am a <b>Full Stack Web Developer</b> 
+    <h1>Hi there! Welcome to my Page!</h1>
+<p>I am <b>Jiezel Olandag</b>. I am a <b>Full Stack Web Developer</b> 
     who can help you regarding with concerns about your website. If you need anything, don't hesitate to approach me!</p>
 
 </body>
