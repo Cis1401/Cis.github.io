@@ -1,8 +1,5 @@
 # Cis1401.github.io
-Welcome to the space where your future browser created.
+Hi there! Welcome to my Page!
 
-Hi there! I am Jiezel Olandag . . . .
-
-I am a Web Development Designer . . . 
-
-If you need anything just approach me !
+I am <b>Jiezel Olandag</b>. I am a <b>Full Stack Web Developer</b>
+    who can help you regarding with concerns about your website. If you need anything, don't hesitate to approach me!</p>
