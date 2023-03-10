@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>JezelOlandagProfile</title>
+  </head>
+
+  <body bgcolor ="E384FF">
+    <table cellspacing="25">
+      <tr>
+        <td><img height="100" src="Jiezel_img.png" alt=""></td>
+        <td>
+          <h1>Jiezel Agum Olandag</h1>
+        </td>
+      </tr>
+    </table>
+    <hr>
+    <h3> Educational Background </h3>
+    <p> <em>Bachelor of Science in Accountancy</em>
+      <br>
+      <a href="https://www.facebook.com/SMCOROQ.HSDepartment/">Stella Maris College</a>
+      <br> 2015 - 2017
+      <br> 2019 - Undergraduate
+    </p>
+    <hr>
+    <hr>
+    <h3> <a href="https://cis1401.github.io/Hobbies.html">Hobbies and Interest </a> </h3>
+    <hr>
+    <hr>
+    <h3> <a href="https://cis1401.github.io/ContactInfo.html">Contact Details</a> </h3>
+    <hr>
+    <hr>
+    <h3> <a href="https://cis1401.github.io/Comments.html">Comments and Suggestions</a> </h3>
+
+  </body>
+
+</html>
