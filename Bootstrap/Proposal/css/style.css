@@ -68,3 +68,8 @@
 .navbar-text {
     color: hsl(211, 100%, 50%)
 }
+
+.section {
+    display: flex;
+    flex-direction: row;
+}
