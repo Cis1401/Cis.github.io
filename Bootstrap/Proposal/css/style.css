@@ -1,3 +1,8 @@
+.navbar {
+    display: flex;
+    flex-direction: center;
+}
+
 .navbar ul li {
     text-transform: uppercase;
     height: 40px;
@@ -12,10 +17,8 @@
 }
 
 .navbar ul li a {
-    color: #f3f3f3;
     padding-left: 15%;
-    display: block;
-    width: 85%;
+    width: 90%;
     height: 100%;
     font-size: 24px;
     line-height: 42px;
@@ -61,10 +64,6 @@
     width: 100%;
 }
 
-.contact-link {
-    color:white;
-}
-
 .navbar-text {
     color: hsl(211, 100%, 50%)
 }
@@ -86,6 +85,21 @@ footer{
 
 .navbar .dropdown-menu {
     position: static;
-    width: 250px;
-    color: #f3f3f3;
+    width: 100px;
+}
+
+.container {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    border-radius: 25%;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
 }
