@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
+    
     <header>
       <nav class="navbar navbar-expand-lg bg-info">
         <div class="container-fluid ">
@@ -34,13 +35,13 @@
 
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-1" >
                             <li class="nav-item">
-                                <a class="nav-link bg-outline-primary" aria-current="page" href="mainpage.html">
+                                <a class="nav-link bg-outline-primary" href="mainpage.html">
                                     Home
                                 </a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="pages/about.html">
+                                <a class="nav-link" aria-current="page" href="pages/about.html">
                                     About Us
                                 </a>
                             </li>
@@ -76,115 +77,145 @@
         </div>
         
       </nav>
-  </header>
 
-  <section height="5%">
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-      <div class="col">
-        <div class="card h-100">
-          <img src="../images/drama1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. 
-              This content is a little bit longer.
-            </p>
-            <button type="button" class="btn btn-outline-primary">Read More</button>
-          </div>
+    </header>
+
+    <!-- Short description of About Me -->
+    <section class="pb-3 mb-3 bg-info">
+        <h1 id="about" class="pt-3 mt-3 pb-3 mb-3 text-center">DRAMA LOVER</h1>
+
+        <div class="card">
+            <div class="card-body">
+              <p class="card-text text-center">
+                This website will be the bridge for the drama links you want to watch from all over the world. 
+              </p>
+              <p class="card-text text-center">
+                Explore the drama lists you like and enjoy.
+              </p>
+              <p class="card-text text-center">
+                We will provide what drama you want to watch and link you directly to their webpage.
+              </p>
+            </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="../images/drama2.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a short card.
-            </p>
-            <button type="button" class="btn btn-outline-primary">Primary</button>
+    </section>
+
+    <section class="mb-5">
+        <h1 class="text-center mb-3" id="services">DRAMA OFFERS</h1>
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="../images/drama3.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a longer card with supporting text below as a natural lead-in to additional content.
-            </p>
-            <button type="button" class="btn btn-outline-primary">Primary</button>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../images/pic4.jpg" class="d-block w-100" alt="...">
+              <div class="text-bg-primary p-3"></div>
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-bg-info p-3">KOREAN DRAMA</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="../images/Untitled.png" class="d-block w-100" alt="...">
+              <div class="text-bg-primary p-3"></div>
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-bg-info p-3">CHINESE DRAMA</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="../images/pic8.jpg" class="d-block w-100" alt="...">
+              <div class="text-bg-primary p-3"></div>
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-bg-info p-3">THAI DRAMA</h5>
+              </div>
+            </div>
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-      </div>
-  </section>
+    </section>
+
+    <section>
+      
+    </section>
+
+    <section>
+      <nav aria-label="Page navigation example" class="mt-5">
+        <ul class="pagination justify-content-center pt-3">
+          <li class="page-item"><a class="page-link" href="/pages/mainpage.html">1</a></li>
+          <li class="page-item"><a class="page-link" href="/pages/chinesedrama.html">2</a></li>
+          <li class="page-item"><a class="page-link" href="/pages/koreandrama.html">3</a></li>
+          <li class="page-item"><a class="page-link" href="/pages/thaidrama.html">4</a></li>
+          <li class="page-item"><a class="page-link" href="/pages/others.html">5</a></li>
+          <li class="page-item"><a class="page-link" href="/pages/contact.html">6</a></li>
+        </ul>
+      </nav>
+    </section>
+
+      <footer class="text-bg-info p-2 text-center" id="contact">
+
+        <div class="row align-items-center">
+          <!-- Use Breakpoints so that we can have 3 columns -->
+          <div class="col-md-4">
+            <h1>CONNECT WITH ME</h1>
+            <p>
+              <a href="https://www.facebook.com/profile.php?id=100078164961157">
+                <img src="/logo/fblogo.png" alt="fb_logo" height="100px">
+              </a>
+            </p>
     
-  <section>
-    <nav aria-label="Page navigation example" class="mt-5">
-      <ul class="pagination justify-content-center pt-3">
-        <li class="page-item"><a class="page-link" href="../Proposal/">Previous</a></li>
-        <li class="page-item"><a class="page-link" href="#">1</a></li>
-        <li class="page-item"><a class="page-link" href="../Proposal/Projects.html">2</a></li>
-        <li class="page-item"><a class="page-link" href="../Proposal/services.html">3</a></li>
-        <li class="page-item"><a class="page-link" href="../Proposal/about-me.html">Next</a></li>
-      </ul>
-  </nav>
-  </section>
-
-  <footer class="text-bg-info p-3 text-center" id="contact">
-
-    <div class="row align-items-center justify-content-md-around">
-      <!-- Use Breakpoints so that we can have 3 columns -->
-      <div class="col-md-4">
-        <h1>CONNECT WITH ME</h1>
-        <p>
-          <a href="https://www.facebook.com/profile.php?id=100078164961157">
-            <img src="/logo/fblogo.png" alt="fb_logo" height="100px">
-          </a>
-        </p>
-
-      </div>
-
-      <div class="col-md-3">
-        <h1>SUBSCRIBE</h1>
-        <form class="mt-2">
-          <div class="mb-3">
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Email Address">
           </div>
-          <button type="submit" class="btn btn-light float-start">Subscribe</button>
-        </form>
-
-      </div>
-
-      <div class="col-md-5">
-          <h1>CONTACT DETAILS</h1>
-
-          <p> 
-            
-            Email Address: 
-            <a href="mailto:agum.jhay@mail.com" class="contact-link">agum.jhay@mail.com</a>
-
+    
+          <div class="col-md-3">
+            <h1>SUBSCRIBE</h1>
+            <form class="mt-2">
+              <div class="mb-3">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Email Address">
+              </div>
+              <button type="submit" class="btn f">Subscribe</button>
+            </form>
+    
+          </div>
+    
+          <div class="col-md-4">
+              <h1>CONTACT DETAILS</h1>
+    
+              <p> 
+                
+                Email Address: 
+                <a href="mailto:agum.jhay@mail.com" class="contact-link">agum.jhay@mail.com</a>
+    
+              </p>
+    
+              <p>
+                Telephone Number:
+                <a href="tel:+63 948-163-1421" class="contact-link">+63 948-163-1421</a>
+              </p>
+    
+    
+          </div>
+    
+        </div>
+    
+          <!-- Copyright starts here. When using copyright symbol press Alt Key then type 0169 -->
+    
+          <p class="mt-5">
+            © Jiezel Agum Olandag -2023
           </p>
+    
+    
+    
+      </footer>
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
-          <p>
-            Telephone Number:
-            <a href="tel:+63 948-163-1421" class="contact-link">+63 948-163-1421</a>
-          </p>
-
-
-      </div>
-
-    </div>
-
-      <!-- Copyright starts here. When using copyright symbol press Alt Key then type 0169 -->
-
-      <p class="mt-5">
-        © Jiezel Agum Olandag -2023
-      </p>
-
-
-
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 </html>
