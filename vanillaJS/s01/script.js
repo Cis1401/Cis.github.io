@@ -124,3 +124,27 @@ function product (a,b) {
 }
 
 console.log(product(2,4));
+
+//Exercise
+
+/*
+    create a function that computes the average of three numbers
+*/
+
+function averageNum (num1, num2, num3) {
+    return(num1=num2=num3);
+}
+
+consolelog(averageNum(1,2,3));
+
+/*
+    create a function that converts meter to kilometer using a return statement
+*/
+
+function convertNumbers (meters) {
+    const m = 1000;
+    console.log ("Result in km: ");
+    return (meters/m);
+}
+
+console.log(convertNumbers(20));
