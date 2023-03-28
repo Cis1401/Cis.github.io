@@ -220,9 +220,5 @@ let isHigher = !(chooseNum > faveNum || faveNum >= chooseNum)
             // = False
 console.log(isHigher); //false
 
-let isTrue = true;
-let isFalse = false;
-
-console.log(isTrue > isFalse || isTrue >= isFalse);
-
-console.log(isTrue && isTrue);
+! (T != F && F!== T || (! T != F)); 
+! (T)
