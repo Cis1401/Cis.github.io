@@ -10,35 +10,67 @@
   <body>
     
     <header>
-        <nav class="navbar navbar-expand-lg bg-primary sticky-top">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="/logo/jO.png" alt="logo" height="50px">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="navbar navbar-expand-lg bg-info">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="#">
+                <img src="/logo/jO.png" height="70" alt="Logo">
+            </a>
+            
+            <div class="navbar-toggler btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                 <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="https:cis1401.github.io/Home">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="https:cis1401.github.io/About">Profile</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="https:cis1401.github.io/Services">Services</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="https:cis1401.github.io/Projects">Projects</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="https:cis1401.github.io/Contact">Contact</a>
-                  </li>
-                </ul>
-              </div>
             </div>
-        </nav>
+
+            <div class="offcanvas offcanvas-center" tabindex="1" id="offcanvasCenter" aria-labelledby="offcanvasCenterLabel">
+                <div class="offcanvas-header bg-body-secondary">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Menu</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    
+                    <div class="offcanvas-body bg-body-info">
+                    
+                        <form class="d-flex" role="search">
+                            <input class="form-control rounded-5 me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn rounded-5 btn-outline-primary" type="submit">Search</button>
+                        </form>
+
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-1" >
+                            <li class="nav-item">
+                                <a class="nav-link bg-outline-primary" href="/pages/Home.html">
+                                    Home
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="pages/About.html">
+                                    About Me
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/howto.html">
+                                    How-to
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/contact.html">
+                                    Contact
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/login.html">
+                                    Login
+                                </a>
+                            </li>
+                        </ul>
+                    
+                    </div>
+            </div>
+
+        </div>
+        
+      </nav>
 
         <img src="/images/Jbanner.png" class="img-fluid" alt="...">
     </header>
@@ -121,7 +153,7 @@
             </h2>
             <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
               <div class="accordion-body">
-                  <img src="../images/HTML5.png" alt="skillset">
+                  <img src="../images/html.png" alt="skillset">
               </div>
             </div>
           </div>
@@ -247,7 +279,7 @@
 
   </section>
 
-    <footer class="text-bg-primary p-3 text-center" id="contact">
+    <footer class="text-bg-info p-3 text-center" id="contact">
 
       <div class="row align-items-center">
         <!-- Use Breakpoints so that we can have 3 columns -->
