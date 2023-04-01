@@ -1,28 +1,28 @@
 console.log("connected");
 
 //Nested If
-// function oddOrEven (num) {
-//     if (isNaN (num) || typeof parseInt(num) !=="number") 
-//     //determines whether a value is Nan (Not a number) or a number
-//     {
-//         return `Unexpected Input`;
-//     }
-//     else if (num == ``){
-//         return "Please input inside the box"
-//     }
-//     else {
-//         if (num % 2 == 0)
-//         {
-//             return ("even number")
-//         }
-//         else {
-//             return ("odd number")
-//         }
-//     }
-// }
+function oddOrEven (num) {
+    if (isNaN (num) || typeof parseInt(num) !=="number") 
+    //determines whether a value is Nan (Not a number) or a number
+    {
+        return `Unexpected Input`;
+    }
+    else if (num == ``){
+        return "Please input inside the box"
+    }
+    else {
+        if (num % 2 == 0)
+        {
+            return ("even number")
+        }
+        else {
+            return ("odd number")
+        }
+    }
+}
 
-// let userInput = prompt  ("Give me a number");
-// console.log(oddOrEven(userInput));
+let userInput = prompt  ("Give me a number");
+console.log(oddOrEven(userInput));
 
 // Nested Loops
 // it composed of outer loop and inner loop

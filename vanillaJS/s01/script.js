@@ -118,12 +118,12 @@ greeting ("Annie", "Batungbakal"); //invoke function calls
 
 greeting ("Rey", "Toro");
 
-function product (a,b) {
-    console.log("Product: ");
-    return (a*b); //stops the execution of a function and returns a value
-}
+// function product (a,b) {
+//     console.log("Product: ");
+//     return (a*b); //stops the execution of a function and returns a value
+// }
 
-console.log(product(2,4));
+// console.log(product(2,4));
 
 // //Exercise
 

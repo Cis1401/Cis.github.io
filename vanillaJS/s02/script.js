@@ -102,7 +102,8 @@ console.log (i %= 8); //4
 
 //Equality Operator or a.k.a "Loose Equality" (==)
 //COERCION IS ALLOWED
-//compares 
+//compares two operands and returns a logical value (true or false)
+//relational: < - less than and > - greater than
 
 console.log("Jan" == "January"); //false - different strings of data
 console.log(true == true); //true
@@ -126,8 +127,8 @@ console.log(parseFloat("75.68")); //75.68 -it retains their decimal places
 console.log(parseInt("75.68").toFixed(2)); //it displays the number of decimals in the number that was declared
 console.log(parseFloat("75.68").toFixed(5));
 
-//
-//
+//Strict Equality Operator (===)
+//compares "sameness of value" and data type
 // NO COERCION ALLOWED
 console.log(1 === 1); //true
 console.log(5 === "5"); //false
