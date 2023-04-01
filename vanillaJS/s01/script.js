@@ -7,14 +7,14 @@ console.log("connected");
     This is a multi line comment 
 */
 
-// Naming Variables
-const pi = 3.1416; //constant variables cannot be re-assigned.
-// pi = 2.0000;
-console.log (pi); 
+// // Naming Variables
+// const pi = 3.1416; //constant variables cannot be re-assigned.
+// // pi = 2.0000;
+// console.log (pi); 
 
-let name1 = "Boriz"; //let can be re-assigned
-name1 = "Richard";
-console.log (name1); 
+// let name1 = "Boriz"; //let can be re-assigned
+// name1 = "Richard";
+// console.log (name1); 
 
 // let name1 = "David"; //let cannot be declared
 // console.log(name1);
@@ -24,88 +24,88 @@ console.log (name1);
 
 //Primitive Data Types
 
-let name = "Joel"; //String data type
-name = 'Tonet';
-name = `Kokou`;
-console.log (name);
+// let name = "Joel"; //String data type
+// name = 'Tonet';
+// name = `Kokou`;
+// console.log (name);
 
-let age = 15; //Number or integer
-console.log(age);
-console.log (typeof age); //it displays the data type that was assigned in the variable
+// let age = 15; //Number or integer
+// console.log(age);
+// console.log (typeof age); //it displays the data type that was assigned in the variable
 
-let grade = 90.5;
-console.log (grade);
+// let grade = 90.5;
+// console.log (grade);
 
-let myCopy; //this is an example of declaring a variable in a camel case notation.
-console.log(myCopy); //it will be tag as undefined because nothing is declared in the variable.
+// let myCopy; //this is an example of declaring a variable in a camel case notation.
+// console.log(myCopy); //it will be tag as undefined because nothing is declared in the variable.
 
-let option1 = null;
-console.log(option1);
+// let option1 = null;
+// console.log(option1);
 
-// let 1fruit = "apple"; we do not apply a number before the word in the variable
-// console.log(1fruit);
+// // let 1fruit = "apple"; we do not apply a number before the word in the variable
+// // console.log(1fruit);
 
-let $year = 2023;
-console.log($year);
+// let $year = 2023;
+// console.log($year);
 
-let $_year = 2023;
-console.log($_year);
+// let $_year = 2023;
+// console.log($_year);
 
-let __year = 2023;
-console.log(__year);
+// let __year = 2023;
+// console.log(__year);
 
-// let !year = 2023;
-// console.log(!year); 
+// // let !year = 2023;
+// // console.log(!year); 
 
-//NOTE: Certain special characters are accepted when naming a variable
-//NOTE: When combining special characters, it is still depends when naming a variable.
+// //NOTE: Certain special characters are accepted when naming a variable
+// //NOTE: When combining special characters, it is still depends when naming a variable.
 
-//Objects
-//they have properties or key value pairs
+// //Objects
+// //they have properties or key value pairs
 
-let person = {
-    //property:value
+// let person = {
+//     //property:value
 
-    name: "Jose Rizal", //string
-    age:30, //number
-    address: "Calamba, Laguna", //string
-    isDoctor:true, //boolean
-    spouse: null, //null
-    siblings : [ //arrays
-        "Paciano",
-        "Maria",
-        "Olympia",
-        "Saturnina",
-        "Josefa",
-        "Narcisa",
-        "Lucia",
-        "Soledad",
-        "Concepcion",
-        "Trinidad"
-    ]
-}
+//     name: "Jose Rizal", //string
+//     age:30, //number
+//     address: "Calamba, Laguna", //string
+//     isDoctor:true, //boolean
+//     spouse: null, //null
+//     siblings : [ //arrays
+//         "Paciano",
+//         "Maria",
+//         "Olympia",
+//         "Saturnina",
+//         "Josefa",
+//         "Narcisa",
+//         "Lucia",
+//         "Soledad",
+//         "Concepcion",
+//         "Trinidad"
+//     ]
+// }
 
-console.log(person); //it displays the object content
-console.log(person.name);
-console.log(person.address);
-console.log(person.siblings); //it displays an array of siblings
+// console.log(person); //it displays the object content
+// console.log(person.name);
+// console.log(person.address);
+// console.log(person.siblings); //it displays an array of siblings
 
-//NOTE: We will use dot (.) notation to call the properties in the specific object.
+// //NOTE: We will use dot (.) notation to call the properties in the specific object.
 
-//Array - storage of data types
+// //Array - storage of data types
 
-let fruits = ["Apple", "Pear", "Guava", "Aratilis", "Grapes"];
+// let fruits = ["Apple", "Pear", "Guava", "Aratilis", "Grapes"];
 
-console.log (fruits);
-console.log (fruits.length); //this method displays the number of elements inside the array/size of an array.
-console.log (fruits[2]);
-console.log (fruits[4]);
+// console.log (fruits);
+// console.log (fruits.length); //this method displays the number of elements inside the array/size of an array.
+// console.log (fruits[2]);
+// console.log (fruits[4]);
 
-//Function
-    //Function Declaration/structure
-        //function keyword
-        //function name and parenthesis (which holds the parameters)
-        //curly braces - determines the block of codes/statements that are written inside the code block
+// //Function
+//     //Function Declaration/structure
+//         //function keyword
+//         //function name and parenthesis (which holds the parameters)
+//         //curly braces - determines the block of codes/statements that are written inside the code block
     
 function greeting (firstName, lastName) {
     //parameters a.k.a "arguments", "properties" and "attributes"
@@ -125,27 +125,27 @@ function product (a,b) {
 
 console.log(product(2,4));
 
-//Exercise
+// //Exercise
 
-/*
-    create a function that computes the average of three numbers
-*/
+// /*
+//     create a function that computes the average of three numbers
+// */
 
-function averageNum (num1, num2, num3) {
-    return(num1=num2=num3);
-}
+// function averageNum (num1, num2, num3) {
+//     return(num1=num2=num3);
+// }
 
-consolelog(averageNum(1,2,3));
+// consolelog(averageNum(1,2,3));
 
-/*
-    create a function that converts meter to kilometer using a return statement
-*/
+// /*
+//     create a function that converts meter to kilometer using a return statement
+// */
 
-function convertNumbers (meters) {
-    const m = 1000;
-    console.log ("Result in km: ");
-    return (meters/m);
-}
+// function convertNumbers (meters) {
+//     const m = 1000;
+//     console.log ("Result in km: ");
+//     return (meters/m);
+// }
 
-console.log(convertNumbers(20));
+// console.log(convertNumbers(20));
 

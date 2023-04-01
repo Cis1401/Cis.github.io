@@ -84,18 +84,18 @@ console.log("connected");
 // multiplyAll([[2,5],[9,10],[11,17,20]]);
 
 // SOLUTION
-const name = ["Karen", "Marites", "Marisol"];
+// const name = ["Karen", "Marites", "Marisol"];
 
-//outer loop
-for (let i = 0; i <name.length; i++)
-{
-    console.log(`My name is ${name[i]}`);
+// //outer loop
+// for (let i = 0; i <name.length; i++)
+// {
+//     console.log(`My name is ${name[i]}`);
     
-    for (let j = 0; j <name[i].length; j++)
-    {
-        console.log(`spells ${name[i][j]}`);
-    }
-}
+//     for (let j = 0; j <name[i].length; j++)
+//     {
+//         console.log(`spells ${name[i][j]}`);
+//     }
+// }
 
 // let i = 0;
 // while (i <= 0) {
