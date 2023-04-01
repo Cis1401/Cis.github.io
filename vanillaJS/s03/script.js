@@ -248,8 +248,8 @@ Else
     condition ? <statement> : statement
 */
 
-let legalAge = 18;
+// let legalAge = 18;
 
-(legalAge >=18)?
-console.log("legal") :
-console.log("minor"); //legal
+// (legalAge >=18)?
+// console.log("legal") :
+// console.log("minor"); //legal
