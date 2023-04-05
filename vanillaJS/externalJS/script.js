@@ -62,90 +62,120 @@ console.log(0 != false);
 
 // 3.
 
-let color = prompt ("Choose a color (black, violet and pink)");
-switch (color) 
-{
-    case (color = "Black"):
-    case (color = "black"):
-        console.log("Black");
-        break;
+// let color = prompt ("Choose a color (black, violet and pink)");
+// switch (color) 
+// {
+//     case (color = "Black"):
+//     case (color = "black"):
+//         console.log("Black");
+//         break;
 
-    case (color = "Violet"):
-    case (color = "violet"):
-        console.log("Violet");
-        break;
+//     case (color = "Violet"):
+//     case (color = "violet"):
+//         console.log("Violet");
+//         break;
 
-    case (color = "Pink"):
-    case (color = "pink"):
-        console.log("Pink");
+//     case (color = "Pink"):
+//     case (color = "pink"):
+//         console.log("Pink");
         
-}
+// }
 
 // 4.)
 
-function oddOrEven (num) {
-    if (isNaN (num) || typeof parseInt(num) !=="number") 
-    {
-        return `Unexpected Input`;
+// function oddOrEven (num) {
+//     if (isNaN (num) || typeof parseInt(num) !=="number") 
+//     {
+//         return `Unexpected Input`;
+//     }
+//     else if (num == ``){
+//         return "Please input inside the box"
+//     }
+//     else {
+//         if (num % 2 == 0)
+//         {
+//             return ("even number")
+//         }
+//         else {
+//             return ("odd number")
+//         }
+//     }
+// }
+
+// let userInput = prompt  ("Give me a number");
+// console.log(oddOrEven(userInput));
+// // 5 - is odd number
+// // 10 - is even number
+// // "8" - is unexpected input
+// // "20" - is unexpected input
+// // "seven" is unexpected input
+// // "fifteen" is unexpected input
+// // true is unexpected input
+
+
+// // 5.)
+
+// for (let n = 0; n <= 20; n++ )
+// {
+//     if (n % 2 == 0)
+//     {
+//     console.log (`Even number ${n}`);
+//     }
+//     else {
+//         console.log (`Odd number ${n}`)
+//     }
+// }
+
+// // 6.)
+
+
+function numberInput (num) {
+    if (isNaN (num) || typeof parseInt(num) <="number") {
+        return `Currently at number 20. Terminating the loop`;
+        num < 20
     }
-    else if (num == ``){
-        return "Please input inside the box"
+
+    else if (num /= ``){
+        return (`The number is divisible by 10. Skipping the number`)
+        num / 10
     }
+
     else {
-        if (num % 2 == 0)
+        if (num /= 5)
         {
-            return ("even number")
-        }
-        else {
-            return ("odd number")
+            return (`The number is divisible by 5. Skipping the number`)
+            num / 5
         }
     }
-}
+};
 
 let userInput = prompt  ("Give me a number");
-console.log(oddOrEven(userInput));
-// 5 - is odd number
-// 10 - is even number
-// "8" - is unexpected input
-// "20" - is unexpected input
-// "seven" is unexpected input
-// "fifteen" is unexpected input
-// true is unexpected input
-
-
-// 5.)
-
-for (let n = 0; n <= 20; n++ )
-{
-    if (n % 2 == 0)
-    {
-    console.log (`Even number ${n}`);
-    }
-    else {
-        console.log (`Odd number ${n}`)
-    }
-}
-
-// 6.)
-
-
-
-
-
 
 // 7.)
 
 
-for (int m = 0; i < (document.forms[0].length) m++);
-    if (document.forms[0].elements[m].type == "text")
-    {
-        console.log (document.forms[0].elements[m].value = "someUsername");
-        break;
-    }
-for (int m = 0; m < document.forms[0].length; i++)
-    if(document.forms[0].elements[m].type == "password")
-    {
-        console.log(document.forms[0].elements[m].value = "somePassword");
-        break;
-    }   
-document.forms[0].submit();
+
+// let id = prompt ("Enter your login Id");
+// let password = prompt ("Enter Password");
+
+// function inputId (mail) {
+//     if (`student@mail.com`) {
+//         console.log (SuccessFully.Login) `SuccessFully Login`;
+//     }
+//     else {
+//         console.log("Re-enter Username");
+//     }
+// }
+
+// function inputPassword (password) {
+//     if (`discovery`) {
+//         console.log ("SuccessFully Login");
+//     } 
+    
+//     else {
+//         console.log ("Login Failed Now only 2 Login Attempts Available");
+//         console.log ("Login Failed Now only 1 Login Attempts Available");
+//         console.log ("Login Failed Now only 0 Login Attempts Available");
+//     }    
+
+// };

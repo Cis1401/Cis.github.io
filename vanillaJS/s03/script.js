@@ -72,15 +72,15 @@ console.log ("connected");
 
 // */
 
-// // let height = prompt ("Enter your height in cm");
+// let height = prompt ("Enter your height in cm");
 
-// // function humanHeight (height) {
-// //     if (height >= 150) {
-// //         console.log ("Pass the minimum height requirements");
-// //     } else {
-// //         console.log ("Did not pass the minimum height requirements.");
-// //     }
-// // }
+// function humanHeight (height) {
+//     if (height >= 150) {
+//         console.log ("Pass the minimum height requirements");
+//     } else {
+//         console.log ("Did not pass the minimum height requirements.");
+//     }
+// }
 
 // // humanHeight(height);
 
