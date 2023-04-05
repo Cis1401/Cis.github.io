@@ -62,48 +62,48 @@ console.log(0 != false);
 
 // 3.
 
-// let color = prompt ("Choose a color (black, violet and pink)");
-// switch (color) 
-// {
-//     case (color = "Black"):
-//     case (color = "black"):
-//         console.log("Black");
-//         break;
+let color = prompt ("Choose a color (black, violet and pink)");
+switch (color) 
+{
+    case (color = "Black"):
+    case (color = "black"):
+        console.log("Black");
+        break;
 
-//     case (color = "Violet"):
-//     case (color = "violet"):
-//         console.log("Violet");
-//         break;
+    case (color = "Violet"):
+    case (color = "violet"):
+        console.log("Violet");
+        break;
 
-//     case (color = "Pink"):
-//     case (color = "pink"):
-//         console.log("Pink");
+    case (color = "Pink"):
+    case (color = "pink"):
+        console.log("Pink");
         
-// }
+}
 
 // 4.)
 
-// function oddOrEven (num) {
-//     if (isNaN (num) || typeof parseInt(num) !=="number") 
-//     {
-//         return `Unexpected Input`;
-//     }
-//     else if (num == ``){
-//         return "Please input inside the box"
-//     }
-//     else {
-//         if (num % 2 == 0)
-//         {
-//             return ("even number")
-//         }
-//         else {
-//             return ("odd number")
-//         }
-//     }
-// }
+function oddOrEven (num) {
+    if (isNaN (num) || typeof parseInt(num) !=="number") 
+    {
+        return `Unexpected Input`;
+    }
+    else if (num == ``){
+        return "Please input inside the box"
+    }
+    else {
+        if (num % 2 == 0)
+        {
+            return ("even number")
+        }
+        else {
+            return ("odd number")
+        }
+    }
+}
 
-// let userInput = prompt  ("Give me a number");
-// console.log(oddOrEven(userInput));
+let userInput = prompt  ("Give me a number");
+console.log(oddOrEven(userInput));
 // 5 - is odd number
 // 10 - is even number
 // "8" - is unexpected input
