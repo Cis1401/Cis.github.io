@@ -63,32 +63,32 @@ console.log("connected");
 // //Objects
 // //they have properties or key value pairs
 
-// let person = {
-//     //property:value
+let person = {
+    //property:value
 
-//     name: "Jose Rizal", //string
-//     age:30, //number
-//     address: "Calamba, Laguna", //string
-//     isDoctor:true, //boolean
-//     spouse: null, //null
-//     siblings : [ //arrays
-//         "Paciano",
-//         "Maria",
-//         "Olympia",
-//         "Saturnina",
-//         "Josefa",
-//         "Narcisa",
-//         "Lucia",
-//         "Soledad",
-//         "Concepcion",
-//         "Trinidad"
-//     ]
-// }
+    name: "Jose Rizal", //string
+    age:30, //number
+    address: "Calamba, Laguna", //string
+    isDoctor:true, //boolean
+    spouse: null, //null
+    siblings : [ //arrays
+        "Paciano",
+        "Maria",
+        "Olympia",
+        "Saturnina",
+        "Josefa",
+        "Narcisa",
+        "Lucia",
+        "Soledad",
+        "Concepcion",
+        "Trinidad"
+    ]
+}
 
-// console.log(person); //it displays the object content
-// console.log(person.name);
-// console.log(person.address);
-// console.log(person.siblings); //it displays an array of siblings
+console.log(person); //it displays the object content
+console.log(person.name);
+console.log(person.address);
+console.log(person.siblings); //it displays an array of siblings
 
 // //NOTE: We will use dot (.) notation to call the properties in the specific object.
 
