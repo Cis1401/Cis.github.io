@@ -1,176 +1,243 @@
-// 1.
 console.log("Hello World!");
 
-let person = {
-    //property:value
+let fName;
+let lName;
+let age;
+let hobbies;
 
-    firstName: "First Name: Jiezel",
-    lastName: "Last Name: Olandag",
-    age: "Age: 27", 
-    work: "Work Address",
-    city: "City: Oroquieta City, Misamis Occidental",
-    house: "House number 04",
-    state: " State: Phillipines",
-    street: "Street: Enerio Street",
-    hobbies: [
-        "Cooking", 
-        "singing", 
-        "Reading Books", 
-        "Driving", 
-        "Watching C & K-Dramas", 
-        "Playing Violin"
-    ]
+const city = "Lincoln";
+const hNumber = 32;
+const state = "Nebraska";
+const street = "Washington";
+
+function userInfo (fName, lName, age, hobbies, city, hNumber, state, street)
+{
+    hobbies = ["Biking", "Mountain Climbing", "Swimming"];
+
+    console.log (
+        `First Name:`, fName,
+        `\nLast Name:`, lName,
+        `\nAge:`, age,
+        `\nHobbies:`, hobbies,
+        `\nWork Address:`,
+        `\ncity:`, city,
+        `\nhouse Number`, hNumber,
+        `\nstate:`, state,
+        `\nstreet:`, street
+
+    );
 }
 
-console.log(`First Name: Jiezel \nLast Name: Olandag \nAge: 27 \nhobbies: Cooking, singing, Reading Books, Driving, Watching C & K-Dramas, Playing Violin\nWork Address:\nCity: Oroquieta City, Misamis Occidental\nHouse number 04\nState: Phillipines\nStreet: Enerio St.`);
+userInfo ( `John`,
+            `Smith`,
+            `30`,
+            hobbies,
+            city,
+            hNumber,
+            state,
+            street
+);
 
-
-function greeting (firstName, lastName) {
-
-    console.log(`${firstName} ${lastName} is 27 years of age.`);
-
+function uInfo (fName, lName, age)
+{
+    console.log (fName, lName, `is`, age, `years of age`);
+    return (fName, lName, age)
 }
-greeting ("Jiezel", "Olandag");
-console.log(`My hobbies are: Cooking, Singing, Reading Books, Driving Motorcycle, Watching C & K-dramas, and Playing Violin.`);
 
+function hobby (hobbies) {
+    hobbies = ["eating", "sleeping", "bingewatching"];
+    return hobbies.toString();
+}
 
+console.log(`His hobbies are:`, hobby());
 
-// 2.
-let j = 15;
-console.log (j+3); //18
-console.log(j); //15
+let city1 = `Lincoln`;
+let house1 = 32;
+let state1 = `Nebraska`;
+let street1 = `Washington`;
 
+console.log(
 
+    `city: ${city}`,
+    `\nhouse number: ${house1}`,
+    `\nstate: ${state1}`,
+    `\nstreet ${street1}`
 
-let i = 27;
-console.log(i += 3); //30
-console.log(i -= 25); //5
-console.log(i *= 5); //25
+);
 
-console.log(25 >= 25); //Expected output: true
-console.log(75 <= 75); 
+let isMarried;
 
-console.log('hello' != 'hello');
-// Expected output: false
-console.log(0 != false);
-// Expected output: false
+function relStat(isMarried) {
+    console.log ("The value of isMarried is:");
+    return (isMarried==isMarried);
+}
+console.log(relStat());
 
-// 3.
+console.log ("==========");
+//answer to number 2
+let num1 = 10;
+let num2 = 20;
 
-// let color = prompt ("Choose a color (black, violet and pink)");
-// switch (color) 
-// {
-//     case (color = "Black"):
-//     case (color = "black"):
-//         console.log("Black");
-//         break;
+console.log (num1 > num2);
+console.log(num1 < num2);
+console.log(num1 == num2);
+console.log(num1 === num2);
+console.log (num1 >= num2);
+console.log (num1 <= num2);
+num1+=30;
+num1-=40;
+num1*=50;
+num1/=60;
+console.log(num1);
+console.log(num1 !== num2);
 
-//     case (color = "Violet"):
-//     case (color = "violet"):
-//         console.log("Violet");
-//         break;
+console.log("=============")
+//answer to number 3
 
-//     case (color = "Pink"):
-//     case (color = "pink"):
-//         console.log("Pink");
-        
+// let color = prompt ("Enter the color Black, Violet, and Pink");
+// function inputColor (color) {
+//     switch (color){
+//         case (color = "BLACK"):
+//             console.log("the color is " + color);
+//             break;
+//         case (color = "black"):
+//             console.log("the color is " + color);
+//             break;
+//         case (color = "VIOLET"):
+//             console.log("the color is " + color);
+//             break;
+//         case (color = "violet"):
+//             console.log("the color is " + color);
+//             break;
+//         case (color = "PINK"):
+//             console.log("the color is " + color);
+//             break;
+//         case (color = "pink"):
+//             console.log("the color is " + color);
+//             break;
+//         default:
+//             console.log("Error: Invalid color");
+//     }
 // }
+// inputColor(color);
 
-// 4.)
+console.log ("=========");
+//answer to number 4
 
 // function oddOrEven (num) {
-//     if (isNaN (num) || typeof parseInt(num) !=="number") 
-//     {
-//         return `Unexpected Input`;
+//     if (isNaN(num) || typeof parseInt(num) !== "number") {
+//         return `Unexpected Input`
+//     } else {
+//         if (num % 2 == 0) {
+//             return ("Even Number");
+//         } else {
+//             return ("Odd Number")
+//         }
 //     }
-//     else if (num == ``){
-//         return "Please input inside the box"
+// }
+
+// let userInput = prompt ("Give me a number");
+// console.log(oddOrEven(userInput));
+
+//answer to number 5
+// let b = 20;
+
+// for (b; b>=0; b--) {
+//     if (b % 2 === 0) {
+//         console.log(`number: ${b}`);
+//     }
+// }
+
+// function counting (b) {
+//     for (b; b>=0; b--) {
+//         if (b % 2 == 0) {
+//             console.log(b);
+//         }
+//     }
+// }
+// let userInput = prompt ("Enter a number from 0 to 20");
+// counting(userInput);
+
+// //answer to number 6
+// let number = prompt ("Give me a number");
+
+// for (number; number >= 0; number--)
+// {
+//     if(number <= 50)
+//     {
+//         console.log(`Currently at number ${number}. Terminating the loop `)
+//     }
+
+//     if (number % 10 === 0){
+//         console.log("The number is divisible by 10. Skipping the number");
+//     }
+
+//     if (number % 5 === 0) {
+//         console.log(number)
+//     }
+// }
+
+//answer to number 7
+//nested IFs
+// let login_attempts = 3;
+// let uname = prompt ("Enter a username or email");
+// let pass = prompt ("Enter a password");
+
+// function login(uname, pass) {
+//     if(uname == "student@mail.com" && pass == "discovery")
+//     {
+//         alert ("Sucessfully login");
 //     }
 //     else {
-//         if (num % 2 == 0)
+//         login_attempts = login_attempts -1;
+//         alert ("Login Failed Now Only" + login_attempts + "Login Attempts Available");
+//         let uname = prompt ("Enter a username or email");
+//         let pass = prompt ("Enter a password");
+
+//         if(uname == "student@mail.com" && pass == "discovery")
 //         {
-//             return ("even number")
+//             alert ("Sucessfully login");
 //         }
 //         else {
-//             return ("odd number")
+//             login_attempts = login_attempts -1;
+//             alert ("Login Failed Now Only" + login_attempts + "Login Attempts Available");
+//             let uname = prompt ("Enter a username or email");
+//             let pass = prompt ("Enter a password");
+
+//             if(uname == "student@mail.com" && pass == "discovery")
+//             {
+//                 alert ("Sucessfully login");
+//             }
+
+//             else {
+//                 login_attempts = login_attempts -1;
+//                 alert ("Login Failed Now Only" + login_attempts + "Login Attempts Available");
+//             }
+            
+
 //         }
 //     }
 // }
 
-// let userInput = prompt  ("Give me a number");
-// console.log(oddOrEven(userInput));
-// // 5 - is odd number
-// // 10 - is even number
-// // "8" - is unexpected input
-// // "20" - is unexpected input
-// // "seven" is unexpected input
-// // "fifteen" is unexpected input
-// // true is unexpected input
+// login(uname, pass);
 
+//loops
+let i= 3;
+while (i !=0) //loop runs 3 times
+{
+    let userName = "student@mail.com";
+    let uName = prompt ("Enter username or email");
+    let userPassword = "discovery";
+    let pass = prompt ("Enter a password");
 
-// // 5.)
-
-// for (let n = 0; n <= 20; n++ )
-// {
-//     if (n % 2 == 0)
-//     {
-//     console.log (`Even number ${n}`);
-//     }
-//     else {
-//         console.log (`Odd number ${n}`)
-//     }
-// }
-
-// // 6.)
-
-
-function numberInput (num) {
-    if (isNaN (num) || typeof parseInt(num) <="number") {
-        return `Currently at number 20. Terminating the loop`;
-        num < 20
+    if (userName == uName && userPassword == pass)
+    {
+        i = 4-i;
+        alert("Sucessfully login");
+        break;
     }
-
-    else if (num /= ``){
-        return (`The number is divisible by 10. Skipping the number`)
-        num / 10
-    }
-
     else {
-        if (num /= 5)
-        {
-            return (`The number is divisible by 5. Skipping the number`)
-            num / 5
-        }
+        i = i-1;
+        alert ("Login Failed Now Only" + i + "Login Attempts Available")
     }
-};
-
-let userInput = prompt  ("Give me a number");
-
-// 7.)
-
-
-
-// let id = prompt ("Enter your login Id");
-// let password = prompt ("Enter Password");
-
-// function inputId (mail) {
-//     if (`student@mail.com`) {
-//         console.log (SuccessFully.Login) `SuccessFully Login`;
-//     }
-//     else {
-//         console.log("Re-enter Username");
-//     }
-// }
-
-// function inputPassword (password) {
-//     if (`discovery`) {
-//         console.log ("SuccessFully Login");
-//     } 
-    
-//     else {
-//         console.log ("Login Failed Now only 2 Login Attempts Available");
-//         console.log ("Login Failed Now only 1 Login Attempts Available");
-//         console.log ("Login Failed Now only 0 Login Attempts Available");
-//     }    
-
-// };
+}
