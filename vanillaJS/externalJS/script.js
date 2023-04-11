@@ -7,11 +7,11 @@ let person = {
     firstName: "First Name: Jiezel",
     lastName: "Last Name: Olandag",
     age: "Age: 27", 
-    workAddress: "",
+    work: "Work Address",
     city: "City: Oroquieta City, Misamis Occidental",
-    houseNumber: "04",
-    state: "Phillipines",
-    street: "Enerio Street",
+    house: "House number 04",
+    state: " State: Phillipines",
+    street: "Street: Enerio Street",
     hobbies: [
         "Cooking", 
         "singing", 
@@ -22,12 +22,8 @@ let person = {
     ]
 }
 
-function greeting (firstName, lastName) {
-    console.log(person.firstName);
-    console.log(person.lastName);
-    console.log(person.age);
-    console.log(person.address);
-}
+console.log(`First Name: Jiezel \nLast Name: Olandag \nAge: 27 \nhobbies: Cooking, singing, Reading Books, Driving, Watching C & K-Dramas, Playing Violin\nWork Address:\nCity: Oroquieta City, Misamis Occidental\nHouse number 04\nState: Phillipines\nStreet: Enerio St.`);
+
 
 function greeting (firstName, lastName) {
 
@@ -36,7 +32,6 @@ function greeting (firstName, lastName) {
 }
 greeting ("Jiezel", "Olandag");
 console.log(`My hobbies are: Cooking, Singing, Reading Books, Driving Motorcycle, Watching C & K-dramas, and Playing Violin.`);
-console.log(``);
 
 
 
