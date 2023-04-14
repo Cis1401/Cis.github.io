@@ -148,18 +148,3 @@ console.log("connected");
 // // }
 
 // // console.log(convertNumbers(20));
-
-// Constructor function for Person objects
-function Person(first, last, age, eye) {
-    this.firstName = first;
-    this.lastName = last;
-    this.age = age;
-    this.eyeColor = eye;
-  }
-  
-  // Create a Person object
-  const myBaby = new Person("Jondiell", "Xian", 1, "black");
-  
-  // Display age
-  let getElementById = ("person");
-  console.log(`${My baby is}+ `{myBaby.age}`` +`); 
