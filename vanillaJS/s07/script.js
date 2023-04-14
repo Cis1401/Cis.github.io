@@ -114,8 +114,8 @@ const studentGrades = [
     }
 ];
 
-//Instruction: compute the average of each students
-//Clue: Using For Loop
+Instruction: compute the average of each students
+Clue: Using For Loop
 for (let i = 0; i<studentGrades.length; i++)
 {
     //compute the element average
@@ -127,7 +127,7 @@ for (let i = 0; i<studentGrades.length; i++)
 }
 console.log(studentGrades);
 
-//Object Constructor
+Object Constructor
 let hero = {
     name: "Angela",
     level:1,
