@@ -43,7 +43,7 @@ console.log(count); //adds the element at the end of an array
 count.push("six");
 console.log(count);
 
-//using push method inside the function
+//using push method inside the function     
 function addElement (element) {
     count.push(element);
     console.log(count);
