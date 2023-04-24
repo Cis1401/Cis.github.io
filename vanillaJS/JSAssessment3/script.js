@@ -1,31 +1,31 @@
 console.log("Exercise 1");
 
-const Cars = [
-	{ 
-        Brand: Ford, 
-        Model: Ranger, 
-        Year: 2022, 
-        Color: gray, 
-        Mileage: ,
-        Price: 21,000
-    },
-	{ 
-        Brand: Hyundai, 
-        Model: Starex, 
-        Year: 71.3, 
-        Color: 76.5, 
-        Mileage: 81.9,
-        Price: 21,000
-    },
-	{ 
-        Brand: Toyota, 
-        Model: Everest, 
-        Year: 91.4, 
-        Color: 90.7, 
-        Mileage: 85.6,
-        Price: 21,000
-    },
-];
+// const Cars = [
+// 	{ 
+//         Brand: Ford, 
+//         Model: Ranger, 
+//         Year: 2022, 
+//         Color: gray, 
+//         Mileage: ,
+//         Price: 21,000
+//     },
+// 	{ 
+//         Brand: Hyundai, 
+//         Model: Starex, 
+//         Year: 71.3, 
+//         Color: 76.5, 
+//         Mileage: 81.9,
+//         Price: 21,000
+//     },
+// 	{ 
+//         Brand: Toyota, 
+//         Model: Everest, 
+//         Year: 91.4, 
+//         Color: 90.7, 
+//         Mileage: 85.6,
+//         Price: 21,000
+//     },
+// ];
 
 
 studentGrades.forEach(student => {
