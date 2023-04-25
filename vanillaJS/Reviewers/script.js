@@ -535,3 +535,44 @@
 // const newStudentArray = calculateStudentGradeAverage(students);
 
 // console.log(newStudentArray);
+
+// showDropDownLength = () => {
+//     const selectDropdown = document.getElementById('dropdown-list')
+
+//     alert(`The length of the list inside the dropdown is: ${selectDropDown.option.length}`);
+// }
+
+// createNewElement = (id, element, text) => {
+//     const elementCreated = document.createElement('element');
+//     elementCreated.id = id;
+//     elementCreated.innerText = text;
+//     document.body.appendChild(elementCreated);
+// }
+// createNewElement('test-element', 'button', 'clickme')
+
+const btn1 = document.getElementById('button-1');
+const btn2 = document.getElementById('button-2');
+
+btn1.addEventListener('click', () => {
+    let num = +btn1.textContent;
+    num++;
+
+    if (num % 5 === 0 && num % 3 === 0) {
+        btn2.textContent = 'FizzBuzz';
+        btn2.style.color = 'purple';
+    }
+    else if (num % 5 === 0) {
+        btn2.textContent = 'Buzz';
+        btn2.style.color = 'blue';
+    }
+    else if (num % 3 === 0) {
+        btn2.textContent = 'Fizz';
+        btn2.style.color = 'red';
+    }
+    else {
+        btn2.textContent = 'Neutral';
+        btn2.style.color = 'black';
+    }
+
+    btn1.textContent = num.toString();
+});
