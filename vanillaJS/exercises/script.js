@@ -112,3 +112,15 @@ IF NUMBER IN BUTTON 1 IS DIVISIBLE BY 3 AND 5 SHOW 'FIZZBUZZ' IN BUTTON2
 //   btn1.textContent = num.toString();
 // }
 
+// const btn1 = document.getElementById('button-1');
+// const btn2 = document.getElementById('button-2');
+// const radiobtn0 = document.getElementById('radiobutton-0');
+// const radiobtn1 = document.getElementById('radiobutton-1');
+// const radiobtn2 = document.getElementById('radiobutton-2');
+//   btn1.onclick = () => radiobtn0.checked = true; radiobtn1.checked = true; radiobtn2.checked = true;
+//   btn2.onclick = () => radiobtn0.checked = false; radiobtn1.checked = false; radiobtn2.checked = false;
+checkAll = () => {
+  const radio = document.getElementsByName('button-1');
+  for (i = 0; i < radio.length; i++)
+    radio[i].checked = true;
+}
