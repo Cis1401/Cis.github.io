@@ -1,4 +1,4 @@
-console.log("Exercise #2")
+// console.log("Exercise #2")
 
 // Write a JavaScript program to count and display the items of a dropdown list, in an alert window.
 
@@ -119,8 +119,22 @@ IF NUMBER IN BUTTON 1 IS DIVISIBLE BY 3 AND 5 SHOW 'FIZZBUZZ' IN BUTTON2
 // const radiobtn2 = document.getElementById('radiobutton-2');
 //   btn1.onclick = () => radiobtn0.checked = true; radiobtn1.checked = true; radiobtn2.checked = true;
 //   btn2.onclick = () => radiobtn0.checked = false; radiobtn1.checked = false; radiobtn2.checked = false;
-checkAll = () => {
-  const radio = document.getElementsByName('button-1');
-  for (i = 0; i < radio.length; i++)
-    radio[i].checked = true;
+// checkAll = () => {
+//   const radio = document.getElementsByName('button-1');
+//   for (i = 0; i < radio.length; i++)
+//     radio[i].checked = true;
+// }
+
+const passwordField = document.getElementById('password-field');
+const confirmPasswordfield = document.getElementById('confirm-password-field');
+
+passwordValidate = () => {
+  if (passwordField.value !== confirmPasswordfield.value) {
+    confirmPasswordfield.setCustomValidity('Password Does not Match');
+  } else if (!passwordField.value || !confirmPasswordfield.value) {
+    alert('Fields cannot be empty');
+  } 
+  else {
+    alert('You have entered the correct password match');
+  }
 }
