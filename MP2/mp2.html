@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/style.css">
+    <script src="lib/script.js"></script>
+    <title>Mini Project 2</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <form onsubmit="return false"></form>
+    <input type="text" placeholder="Enter your last name" id="lastName" />
+    <br><br>
+    <input type="text" placeholder="Enter your first name" id="firstName" />
+    <input type="radio" id="male" name="gender" value="male"> Male
+    <input type="radio" id="female" name="gender" value="female"> Female
+    <br><br>
+    <input type="email" placeholder="Enter your email" id="email"/>
+    <input type="text" placeholder="Address" id="address"/>
+    <br><br>
+    <input type="password" placeholder="Enter password" id="password" />
+    <input type="password" placeholder="Enter password (check)" id="passwordCheck" />
+    <br><br>
+    <input type="checkbox" id="newsletter" />Send me updates.
+    <br><br>
+    <span>Please tell us your concerns.</span>
+    <br>
+    <textarea id="question" rows="4"></textarea>
+    <br><br>
+    <button onclick="sendContact();">Send contact</button>
+</body>
+</html>
