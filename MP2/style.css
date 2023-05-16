@@ -134,7 +134,7 @@ body {
 .neon-button:focus {    
     color: white;
     text-shadow: none;    
-}
+} */
 
 .neon-button:hover::before,
 .neon-button:focus::before {
@@ -156,7 +156,7 @@ body {
 .neon-button1::after {
     box-sizing: border-box;
     
-}
+} */
 
 .neon-button1 {
     background-color: transparent;
@@ -550,7 +550,7 @@ body {
         border-radius: 5px;
         border: none;
     }
-    /* to make text more readable */
+    to make text more readable 
     .card:hover .cardImage  
     {
         opacity: 0.4;
@@ -564,7 +564,7 @@ body {
       transform: translate(-50%, -50%);
       color: rgb(9, 9, 100);
       text-shadow: white;
-      /* transition: opacity ease-out 250ms; */
+      transition: opacity ease-out 250ms;
       width: 90%;
       font-weight: 600;
       font-size: 0.95em;
